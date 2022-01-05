@@ -26,10 +26,10 @@ The settings are very simple, it needs an API key, that you get on the GetScreen
 Download as ZIP and upload it to your Wordpress installation under Plugins > Add.
 
 When added, please activate it, and head for settings > GetScreen.Me and enter your settings.
-![Alt text](settings.png)
+![Alt text](assets/settings.png)
 
 Add it to your page with the shortcode [getscreenme]
-![Alt text](frontpage.png)
+![Alt text](assets/frontpage.png)
 
 == Changelog ==
 
