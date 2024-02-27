@@ -71,10 +71,15 @@ class GetScreen_Me_Public {
 		$btn = preg_replace( '/<input type="submit"(.*)value="(.*)"(.*)\/>/iU', '<button type="submit"$1value="$2"$3>$2</button>', get_submit_button($label_for_the_create_connection_4!=''?$label_for_the_create_connection_4:'Create session','button medium') , 1 );
 
 		$s = '<form name="getscreen_me" id="getscreen_me">
-<input type="' . ($show_client_name_input_1?'text':'hidden') . '" name="getscreenme_clientname" placeholder="'. ($label_for_the_client_name_input_field_3!=''?$label_for_the_client_name_input_field_3:'Customer name') . '" />
+<input type="' . ($show_client_name_input_1?'text':'hidden') . '" name="getscreenme_clientname" placeholder="'. ($label_for_the_client_name_input_field_3!=''?$label_for_the_client_name_input_field_3:'Customer name') . '" value="'.(isset($_GET['gsm_name'])?$_GET['gsm_name']:'').'" />
 		'. $btn . '</form>
 		';
-
+		if(isset($_GET['gsm_name']) && !isset($_GET['submit'])){
+			$s.='<script>document.addEventListener(\'DOMContentLoaded\', function() {
+  		var submitBtn = document.querySelector(\'#getscreen_me button[name="submit"]\');
+  		setTimeout(function(){submitBtn.click()},1000);
+});</script>';
+		}
 		// run shortcode parser recursively
     	//$content = do_shortcode( $content );
 	    // always return

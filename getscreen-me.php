@@ -16,7 +16,7 @@
  * Plugin Name:       GetScreen.Me Customer initiation plugin
  * Plugin URI:        http://getscreen.me
  * Description:       This plugin lets you create a client facing invitation, so the customer can initiate a session.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            QCompany / Michael Dyhr Iversen
  * Author URI:        http://qcompany.dk/
  * License:           GPL-2.0+
@@ -34,7 +34,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'GETSCREEN_ME_VERSION', '1.0.0' );
+define( 'GETSCREEN_ME_VERSION', '1.1.0' );
 
 /**
  * The code that runs during plugin activation.
