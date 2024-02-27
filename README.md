@@ -28,13 +28,17 @@ The settings are very simple, it needs an API key, that you get on the GetScreen
 Download as ZIP and upload it to your Wordpress installation under Plugins > Add.
 
 When added, please activate it, and head for settings > GetScreen.Me and enter your settings.
+
 ![Alt text](assets/settings.png)
 
 Add it to your page with the shortcode [getscreenme]
+
 ![Alt text](assets/frontpage.png)
 
 == Changelog ==
+
 = 1.1.0 =
 * Added support for autosubmit the form when sending the parameter gsm_name to the page
+
 = 1.0.0 =
 * This is the first version on GitHub.
