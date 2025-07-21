@@ -2,6 +2,8 @@
 
 Contributors: FantasiaDK
 
+Buy GetScreen.me using this link to support me: https://try.getscreen.me/ww6aj592biug
+
 Donate link: https://www.paypal.com/donate/?hosted_button_id=F8EAAD6BMM356
 
 Tags: remote support, client initialization
