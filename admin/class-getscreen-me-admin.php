@@ -144,6 +144,7 @@ class GetScreen_Me_Admin {
 		<div class="wrap">
 			<h2>GetScreen.Me</h2>
 			<p>Find your api key here: https://getscreen.me/dashboard/integrate/api</p>
+			<p>Support me by bying the software using my affiliate link: https://try.getscreen.me/ww6aj592biug</p>
 			<?php settings_errors(); ?>
 
 			<form method="post" action="options.php">
